@@ -1,5 +1,6 @@
 plugins {
     java
+    kotlin("jvm") version "1.8.0"
 }
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.2"))
